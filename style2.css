@@ -1,28 +1,34 @@
 
-// <uniquifier>: Use a unique and descriptive class name
-// <weight>: Use a value from 100 to 900
 
-.raleway-<uniquifier> {
-  font-family: "Raleway", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
+body {
+   font-family: "Raleway", sans-serif;
 }
 
+
+/****** STYLE HEADER */
 
 header {
     color: white;
 }
 
+.header-container{
+    background-color: #c80000;
+    padding: 10px;
+}
+
 .header-title {
-    background-color: #c80000
-    ;
-    text-align: left;
     padding-left: 20px;
 }
 
 .span-header{
     padding-left: 10px;
-    font-size: 1rem;
-    font-weight: 100;
+    font-size: O.3rem;
 }
+
+.header-theme {
+    background-color:#666 ;
+    padding: 7px;
+    font-size: 0.6rem;
+    text-align: center;
+}
+
