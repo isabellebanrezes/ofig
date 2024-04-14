@@ -22,13 +22,18 @@ header {
 
 .span-header{
     padding-left: 10px;
-    font-size: O.3rem;
+    font-size: 0.9rem;
 }
 
 .header-theme {
     background-color:#666 ;
-    padding: 7px;
+    padding: 15px;
     font-size: 0.6rem;
     text-align: center;
+}
+
+.article.figurine {
+    border: 10px;
+    border-color: blue;
 }
 
