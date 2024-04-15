@@ -4,7 +4,6 @@ body {
    font-family: "Raleway", sans-serif;
 }
 
-
 /****** STYLE HEADER */
 
 header {
@@ -34,20 +33,39 @@ header {
 
 /********   MAIN    ********* */
 
+/* block de toutes les figurines  */
 .container-figurine {
     display: flex;
-    background-color: blue;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 15px;
+    column-gap: 0px;
+    gap: 10px;
 }
 
+/* block d'une figurine  */
 .article.figurine {
-    border: solid;
-    border-block-color: grey;
-    padding: 10px;
-    margin: 10px;
-    border: 5px solid grey;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width:20%;
+    border: 5px solid #ccc;
+    padding:5px;
 }
 
+/* block image d'une figurine */
 .image-figurine {
 
-   
+}
+
+.article-version-game{
+   color: grey;
+   font-size: small;
+   text-align: left;
+   text-decoration: underline;
+
+}
+
+.article-nom {
+    color: black;
 }
