@@ -32,8 +32,22 @@ header {
     text-align: center;
 }
 
-.article.figurine {
-    border: 10px;
-    border-color: blue;
+/********   MAIN    ********* */
+
+.container-figurine {
+    display: flex;
+    background-color: blue;
 }
 
+.article.figurine {
+    border: solid;
+    border-block-color: grey;
+    padding: 10px;
+    margin: 10px;
+    border: 5px solid grey;
+}
+
+.image-figurine {
+
+   
+}
