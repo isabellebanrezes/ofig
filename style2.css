@@ -37,10 +37,10 @@ header {
 
 .main {
     /* je dimensionne mon block des articles */
-    width: 800px;
+    width: 900px;
 /* je mets une marge de 15px autour du block des figurines */
     margin :20px auto;
-    /* je mets les articles sur une seule ligne */
+    /* je mets les articles sur une seule ligne grace à margin auto */
     display:flex;
     flex-wrap: wrap;
     /* le flex-wrap et wrap les remets sur une seule colonne */
@@ -51,7 +51,7 @@ header {
 .article-figurine {
     display:flex;
     flex-direction: column;
-    width:30%;
+    width:31%;
     border: 1px solid #ccc;
     padding: 8px;
     margin: 8px;
@@ -86,4 +86,37 @@ header {
 .taille{
     font-size: 0.8em;
     font-weight: 500;
+    padding: 5px;
+}
+
+.add-to-card {
+    text-decoration: none;
+    background: #c80000;
+    color: aliceblue;
+    display: flex;
+    align-content: center;
+    padding: 15px;
+    padding-left: 15px;
+    font-size: 0.9em;
+    font-weight: 300;
+    margin-top: 15px;
+}
+
+.tarif {
+    padding: 0px 0px 10px 40px;
+    font-weight: 600;
+    font-size:1.3em;
+}
+
+.tarif-barre {
+    padding: 5px 0px 0px 15px;
+    text-decoration: line-through;
+    font-size: 1.2em;
+    font-weight: 200;
+}
+
+.tarif-solde {
+    padding: 0px 0px 10px 10px;
+    font-weight: 600;
+    font-size: 1.4em;
 }
