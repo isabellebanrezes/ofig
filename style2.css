@@ -73,6 +73,7 @@ header {
    font-size: small;
    text-align: left;
    border-bottom: 1px solid #ccc;
+   padding-top: 5px;
 }
 
 .article-nom {
