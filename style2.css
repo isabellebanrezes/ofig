@@ -70,7 +70,7 @@ header {
 
 .article-version-game{
    color: #ccc;
-   font-size: small;
+   font-size: 0.7em;
    text-align: left;
    border-bottom: 1px solid #ccc;
    padding-top: 5px;
@@ -79,6 +79,8 @@ header {
 .article-nom {
     color: black;
     font-size: 1.4em;
+    padding-top: 5px;
+    padding-left: 2px;
 }
 
 .footer{

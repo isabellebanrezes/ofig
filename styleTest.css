@@ -1,0 +1,89 @@
+
+.titre {
+    font-size: 2em;
+    margin: 20px;
+    background-color: aqua;
+    padding: 20px;
+    border: solid #ccc;
+}
+
+.produit{
+    /***** POUR CENTRER UNE BALISE METHODE 1 avec MARGIN & AUTO *****/
+    margin-left: auto;
+    margin-right: auto;
+    text-transform: uppercase;
+    padding: 15px;
+    width: 250px;
+    background-color: blueviolet;
+    color: aliceblue;
+    text-align: center;
+}
+
+
+
+.titre-2 {
+    font-size: 2em;
+    margin: 20px;
+    background-color: aqua;
+    padding: 20px;
+    border: solid #ccc;
+    /***** POUR CENTRER UNE BALISE METHODE 2 avec TEXT-ALIGN *****/
+    text-align: center;
+}
+
+.produit-2{
+    /***** POUR CENTRER UNE BALISE METHODE 2 avec DISPLAY & INLINE-BLOCK *****/
+    display: inline-block;
+    text-transform: uppercase;
+    padding: 15px;
+    width: 250px;
+    background-color: blueviolet;
+    color: aliceblue;
+    text-align: center;
+}
+
+
+.titre-3 {
+    font-size: 2em;
+    margin: 20px;
+    background-color: aqua;
+    padding: 20px;
+    border: solid #ccc;
+    /***** POUR CENTRER UNE BALISE METHODE 3 AVEC DISPLAY FLEX *****/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.produit-3 {
+    text-transform: uppercase;
+    padding: 15px;
+    width: 250px;
+    background-color: blueviolet;
+    color: aliceblue;
+    text-align: center;
+}
+
+.titre-4 {
+    font-size: 2em;
+    padding: 50px;
+    margin: 20px;
+    background-color: aqua;
+    border: solid #ccc;
+    /***** POUR CENTRER UNE BALISE METHODE 4 AVEC POSITION & RELATIVE *****/
+    position: relative;
+}
+
+.produit-4 {
+    text-transform: uppercase;
+    width: 250px;
+    padding: 15px;
+    background-color: blueviolet;
+    color: aliceblue;
+    text-align: center;
+     /***** POUR CENTRER UNE BALISE METHODE 4 AVEC POSITION & ABSOLUE *****/
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
