@@ -83,6 +83,7 @@
     text-align: center;
      /***** POUR CENTRER UNE BALISE METHODE 4 AVEC POSITION & ABSOLUE *****/
     position: absolute;
+    /* POUR RECENTRER AU MILIEU **/
     top: 50%;
     left:50%;
     transform: translate(-50%,-50%);
