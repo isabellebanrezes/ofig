@@ -1,0 +1,37 @@
+
+
+
+.header {
+    color: white;
+    display: flex;
+   flex-wrap: wrap;
+   flex-direction: column;
+}
+
+
+.header-first-title {
+    background-color:#c80000;
+    padding: 0px 0px 0px 8px;
+}
+
+.header-first-span {
+    font-size: 1.2rem;
+    padding-left: 5px;
+}
+
+
+.header-second-title {
+    background-color:gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.9rem;
+    padding: 15px 15px 5px 15px;
+    font-weight: 100;
+}
+
+.header-second-span {
+    text-decoration: none;
+    font-style: italic;
+    font-weight:50;
+}
