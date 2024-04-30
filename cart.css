@@ -1,5 +1,7 @@
 
-
+body {
+    font-family: "Relaway", sans-serif;
+}
 
 .header {
     color: white;
@@ -11,12 +13,13 @@
 
 .header-first-title {
     background-color:#c80000;
-    padding: 0px 0px 0px 8px;
+    padding: 5px 5px 5px 8px;
 }
 
 .header-first-span {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     padding-left: 5px;
+    font-weight: 150;
 }
 
 
@@ -25,13 +28,14 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 0.9rem;
+    font-size: 0.7rem;
     padding: 15px 15px 5px 15px;
-    font-weight: 100;
 }
 
-.header-second-span {
-    text-decoration: none;
+.header__second-span {
     font-style: italic;
-    font-weight:50;
+    font-weight:100;
+    font-size: 1.1rem;
 }
+
+
