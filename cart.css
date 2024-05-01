@@ -3,6 +3,8 @@ body {
     font-family: "Relaway", sans-serif;
 }
 
+/******  HEADER ********/
+
 .header {
     color: white;
     display: flex;
@@ -38,4 +40,23 @@ body {
     font-size: 1.1rem;
 }
 
+/*********  MAIN *******/
 
+.main {
+    width: 500px;
+    height: 750px;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+
+.footer {
+    background-color: gray;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+/*********  FOOTER *******/
