@@ -14,7 +14,7 @@ body {
 
 
 .header-first-title {
-    background-color:#c80000;
+    background-color:#c80020;
     padding: 5px 5px 5px 8px;
 }
 
@@ -47,7 +47,9 @@ body {
     height: 750px;
     display: flex;
     flex-wrap: wrap;
-    
+    font-size: 1rem;
+    font-weight: 300;
+
 }
 
 
